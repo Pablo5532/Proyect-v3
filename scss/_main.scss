@@ -1,0 +1,257 @@
+.text-center_dos{
+    background-color: #a4a6a9;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.container{
+    width:auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.container_cont{
+    display: flex;
+    align-items:baseline;
+    align-content: space-between;
+    justify-content: space-around;
+    border-bottom: 2px 2px 2px 2px black solid;
+    background-color: #8b8888;
+    box-shadow: 5px black;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+.card-text{
+    align-items: flex-end;
+}
+.title_ges{
+    display: flex;
+    font-family: 'Cairo', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+    align-items: center;
+    justify-content: center;
+}
+.subtitle_ges{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+}
+.title_med{
+    display: flex;
+    justify-content:center;
+    align-items: center;  
+    font-family: 'Cairo', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.list_med{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.title_uno{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2%;
+}
+.text_uno{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1%;
+}
+.img_usua{
+height: 216px;  
+width: 350px;
+object-fit:contain;
+align-content: center;
+display: flex;
+flex-direction: column-reverse;
+justify-items: center;
+box-sizing: border-box;
+border: 3px black solid;
+}
+.title_dos{
+font-size: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 2%;
+
+}
+.datos{
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 1%;
+
+}
+.datos_dos{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+margin: 1%;
+}
+.title_tres{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 25px;
+margin: 2%;
+}
+.visual{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+margin: 1%;
+}
+.inf_pdf{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+margin: 1%;
+}
+.controls_u{
+width: 100%;
+border: 2px solid #0598d1;
+margin-bottom: 15px;
+padding: 11px 10px;
+background: #5e4949;
+font-size: 14px;
+font-weight: bold; 
+}
+.controls_c{
+width: 100%;
+border: 2px solid #0598d1;
+margin-bottom: 15px;
+padding: 11px 10px;
+background: #5e4949;
+font-size: 14px;
+font-weight: bold; 
+}
+
+.buttons_a{
+width: 100%;
+height: 40px;
+background: #03abed;
+border: none;
+color: white;
+margin-bottom: 16px;
+}
+.header{
+    background-image: url(../assets/img/headerimg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(250, 234, 234);
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+}
+.card{
+    justify-content: center;
+    background-color: rgb(42, 58, 151);
+}
+.card-title{
+    justify-content: center;
+    text-align: center;
+    color: beige;
+    animation-delay: 4ms;
+}
+
+.ps-2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.header__title{
+    font-size: 4rem;
+    text-shadow: 1px 1px 1px #fff;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.wrapper {
+    max-width: 350px;
+    min-height: 500px;
+    margin: 80px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+    .name {
+        font-weight: 600;
+        font-size: 1.4rem;
+        letter-spacing: 1.3px;
+        padding-left: 10px;
+        color: #555;
+}
+        .form-field input {
+            width: 100%;
+            display: block;
+            border: none;
+            outline: none;
+            background: none;
+            font-size: 1.2rem;
+            color: #666;
+            padding: 10px 15px 10px 10px;
+}
+            .form-field {
+                padding-left: 10px;
+                margin-bottom: 20px;
+                border-radius: 20px;
+                box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+            }
+
+                .form-field .fas {
+                    color: #555;
+                }
+                    .btn {
+                        box-shadow: none;
+                        width: 100%;
+                        height: 40px;
+                        background-color: #03A9F4;
+                        color: #fff;
+                        border-radius: 25px;
+                        box-shadow: 3px 3px 3px #b1b1b1,
+                            -3px -3px 3px #fff;
+                        letter-spacing: 1.3px;
+                    }
+
+                        .btn:hover {
+                            background-color: #039BE5;
+                        }
+
+                            a {
+                                text-decoration: none;
+                                font-size: 0.8rem;
+                                color: #03A9F4;
+                                &:hover {
+                                    color: #039BE5;
+                                }
+                            }
+
+} 
+
+.vh-100{
+    height: 1000px;
+}
+.form-outline.form-white .form-control{
+    color: black;
+}

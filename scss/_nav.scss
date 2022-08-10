@@ -1,0 +1,18 @@
+.fondo{
+    background-color: rgb(238, 210, 210);
+}
+
+.navLinks{
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: 'Bangers', cursive;
+
+        .navLinks:active{
+            color: #000;
+        }
+        &:hover{
+            text-decoration: none;
+            color: rgb(0, 153, 255);
+        }
+}

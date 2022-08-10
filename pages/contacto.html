@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Sugerencias y Reclamos</title>
+</head>
+    <body>
+        <div class="header">
+            <h1 class="header__title text-center animate__animated animate__rollIn">Laboratorio FerLab</h1>
+        </div>
+    
+            <nav class="navbar navbar-expand-lg fondo">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/img/FERLAB (1).png" alt="logo" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link navLinks" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navLinks" href="../pages/Acceso_Medicos.html">Acceso Medicos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navLinks" href="../pages/resultados.html">Resultados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navLinks" href="../pages/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navLinks" href="https://web.whatsapp.com/">TURNOS ONLINE</a>
+                    </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-2 grow" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                    </form>
+                </div>
+                </div>
+            </nav>
+        <section>
+            <div>
+                <h2 class="title_ges">Gestion de Sugerencias y Reclamos</h2>
+                    <p class="subtitle_ges">Laboratorio FerLab pone a disposicion de clientes y pacientes, medios a traves de los que puede expresar sus sugerencias y reclamos. Los datos proporcionados son absolutamente confidenciales y seran utilizados para mejorar nuestros servicios.</p>
+            </div>
+            <h2 class="title_med">MEDIOS DE COMUNICACION</h2>
+                <ol class="list_med">
+                    <li>Formulario de Contacto Online</li>
+                    <li>Formulario de reclamos y sugerencias en todas las recepciones</li>    
+                    <li>Encuestas de satisfaccion.</li>   
+                    <li>Pagina Web</li>
+                </ol>
+        </section>
+<div class="container_cont py-4">
+
+  <!-- Bootstrap 5 starter form -->
+  <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+
+    <!-- Name input -->
+    <div class="mb-3">
+      <label class="form-label" for="Nombre">Nombre</label>
+      <input class="form-control" id="name" type="text" placeholder="Ingrese su Nombre" data-sb-validations="required" />
+      <div class="invalid-feedback" data-sb-feedback="name:required">Este campo es requerido.</div>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="Apellido">Apellido</label>
+        <input class="form-control" id="name" type="text" placeholder="Ingrese su Apellido" data-sb-validations="required" />
+        <div class="invalid-feedback" data-sb-feedback="name:required">Este campo es requerido.</div>
+      </div>
+
+    <!-- Email address input -->
+    <div class="mb-3">
+      <label class="form-label" for="emailAddress">Direccion de Email</label>
+      <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
+      <div class="invalid-feedback" data-sb-feedback="emailAddress:required">La direccion de email es requerida.</div>
+      <div class="invalid-feedback" data-sb-feedback="emailAddress:email">El email no es valido</div>
+    </div>
+
+    <!-- Message input -->
+    <div class="mb-3">
+      <label class="form-label" for="message">Deje aquí su mensaje</label>
+      <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+      <div class="invalid-feedback" data-sb-feedback="message:required">Este campo es obligatorio.</div>
+    </div>
+
+    <!-- Form submissions success message -->
+    <div class="d-none" id="submitSuccessMessage">
+      <div class="text-center mb-3">Form submission successful!</div>
+    </div>
+
+    <!-- Form submissions error message -->
+    <div class="d-none" id="submitErrorMessage">
+      <div class="text-center text-danger mb-3">Error sending message!</div>
+    </div>
+
+    <!-- Form submit button -->
+    <div class="d-grid">
+      <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Enviar</button>
+    </div>
+
+  </form>
+
+</div>
+
+<div class="container-fluid footer_s">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted">&copy; Creado por Pablo A. Cardozo</p>
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+      </a>
+      <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-muted"><i class="bi bi-facebook"></i></a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-muted"><i class="bi bi-instagram"></i></a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-muted"><i class="bi bi-youtube"></i></a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-muted"><i class="bi bi-linkedin"></i></a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-muted"><i class="bi bi-twitter"></i></a>
+          </li>
+      </ul>
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+<!-- SB Forms JS -->
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        
+        
+
+    
+</body>
+</html>
