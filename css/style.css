@@ -73,9 +73,9 @@ input ::-webkit-inner-spin-button {
   height: auto; }
 
 .gradient-custom {
-  background: #6a11cb;
-  background: -webkit-linear-gradient(to right, #9854e1, #4a8cfc);
-  background: linear-gradient(to right, #9860d3, #4c8eff); }
+  background: #be8ef1;
+  background: -webkit-linear-gradient(to right, #b3b3b3, #0c1a52);
+  background: linear-gradient(to right, #b3b3b3, #0c1a52); }
 
 .footer_s {
   background-color: #eed2d2; }
@@ -340,6 +340,28 @@ input ::-webkit-inner-spin-button {
 
 .form-outline.form-white .form-control {
   color: black; }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: white; }
+
+.my-float {
+  margin-top: 16px; }
 
 .fondo {
   background-color: #eed2d2; }
