@@ -98,7 +98,7 @@ transform: translateX(0);
   }
   .iconos{
     font-size: 3rem;
-    color: #fff;
+    color: rgb(255, 255, 255);
     padding: 20px;
 }
 
@@ -112,15 +112,17 @@ transform: translateX(0);
     background: #be8ef1;
     
     
-    background: -webkit-linear-gradient(to right, rgb(179, 179, 179), rgb(12,26,82));
+    background: -webkit-linear-gradient(to right, rgb(179, 179, 179), rgb(139, 139, 139));
     
 
-    background: linear-gradient(to right, rgb(179, 179, 179), (rgb(12, 26, 82)))
+    background: linear-gradient(to right, rgb(179, 179, 179), (rgb(139, 139, 139)))
     }
 
 .footer_s{
-    background-color:rgb(238, 210, 210) ;
-}
+    background-color:rgb(129, 192, 248);
+    color:#232425;
+    height: 150px;
+    }
 .logo {
     width: 80px;
     margin: auto;
@@ -148,9 +150,17 @@ transform: translateX(0);
     }
 }
 @media(max-width:380px){
-    .main{
+    main{
         margin: 0px;
         padding: 0px;
         width: auto;
+    }
+}
+@media(max-width:380px){
+    header{
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+        display: flex;
     }
 }

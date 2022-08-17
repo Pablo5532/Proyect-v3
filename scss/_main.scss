@@ -16,11 +16,11 @@
 }
 .container_cont{
     display: flex;
-    align-items:baseline;
+    align-items:center;
     align-content: space-between;
     justify-content: space-around;
     border-bottom: 2px 2px 2px 2px black solid;
-    background-color: #8b8888;
+    background-color: #ceb9b9;
     box-shadow: 5px black;
 }
 .contenedor{
@@ -58,11 +58,12 @@
 }
 .list_med{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     align-items:center;
+    padding: 15px;
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: 17px;
 }
 .title_uno{
     font-size: 25px;
@@ -85,23 +86,24 @@ justify-items: center;
 box-sizing: border-box;
 border: 3px black solid;
 }
-.title_dos{
-font-size: 25px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-margin: 2%;
 
-}
-.datos{
+/*Sass II Extend*/
+.title_dos{
 font-size: 20px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-margin: 1%;
+margin: 2%;
+}
+
+.datos{
+@extend .title_dos;
+color: black;
 
 }
 .datos_dos{
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size: 20px;
-margin: 1%;
+@extend .title_dos;
+color: rgb(10, 7, 7);
 }
+
 .title_tres{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 25px;
@@ -154,14 +156,18 @@ margin-bottom: 16px;
     justify-content: center;
     align-items: center;
 }
-
-.card-text{
+/*Sass II Mixin*/
+@mixin card-text() {
     display: flex;
     justify-content: center;
     text-align: center;
     color: rgb(250, 234, 234);
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Kanit', sans-serif;
+    
+}
+.card-text{
+   @include card-text()
 }
 .card{
     justify-content: center;
@@ -179,6 +185,7 @@ margin-bottom: 16px;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    font-size: 20px;
 }
 
 .header__title{
@@ -278,4 +285,8 @@ margin-bottom: 16px;
 
 .my-float{
 	margin-top:16px;
+}
+
+.text-muted{
+    color: #323232;
 }

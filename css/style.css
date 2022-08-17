@@ -65,7 +65,7 @@ input ::-webkit-inner-spin-button {
 
 .iconos {
   font-size: 3rem;
-  color: #fff;
+  color: white;
   padding: 20px; }
 
 .logo {
@@ -74,11 +74,13 @@ input ::-webkit-inner-spin-button {
 
 .gradient-custom {
   background: #be8ef1;
-  background: -webkit-linear-gradient(to right, #b3b3b3, #0c1a52);
-  background: linear-gradient(to right, #b3b3b3, #0c1a52); }
+  background: -webkit-linear-gradient(to right, #b3b3b3, #8b8b8b);
+  background: linear-gradient(to right, #b3b3b3, #8b8b8b); }
 
 .footer_s {
-  background-color: #eed2d2; }
+  background-color: #81c0f8;
+  color: #232425;
+  height: 150px; }
 
 .logo {
   width: 80px;
@@ -100,10 +102,17 @@ input ::-webkit-inner-spin-button {
     padding: 40px 15px 15px 15px; } }
 
 @media (max-width: 380px) {
-  .main {
+  main {
     margin: 0px;
     padding: 0px;
     width: auto; } }
+
+@media (max-width: 380px) {
+  header {
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    display: flex; } }
 
 .text-center_dos {
   background-color: #a4a6a9;
@@ -122,11 +131,11 @@ input ::-webkit-inner-spin-button {
 
 .container_cont {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   align-content: space-between;
   justify-content: space-around;
   border-bottom: 2px 2px 2px 2px black solid;
-  background-color: #8b8888;
+  background-color: #ceb9b9;
   box-shadow: 5px black; }
 
 .contenedor {
@@ -164,11 +173,12 @@ input ::-webkit-inner-spin-button {
 
 .list_med {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  padding: 15px;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 20px; }
+  font-size: 17px; }
 
 .title_uno {
   font-size: 25px;
@@ -191,20 +201,17 @@ input ::-webkit-inner-spin-button {
   box-sizing: border-box;
   border: 3px black solid; }
 
-.title_dos {
-  font-size: 25px;
+/*Sass II Extend*/
+.title_dos, .datos, .datos_dos {
+  font-size: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 2%; }
 
 .datos {
-  font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin: 1%; }
+  color: black; }
 
 .datos_dos {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-  margin: 1%; }
+  color: #0a0707; }
 
 .title_tres {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -257,12 +264,13 @@ input ::-webkit-inner-spin-button {
   justify-content: center;
   align-items: center; }
 
+/*Sass II Mixin*/
 .card-text {
   display: flex;
   justify-content: center;
   text-align: center;
   color: #faeaea;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Kanit', sans-serif; }
 
 .card {
@@ -279,7 +287,8 @@ input ::-webkit-inner-spin-button {
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin-top: 10px; }
+  margin-top: 10px;
+  font-size: 20px; }
 
 .header__title {
   font-size: 4rem;
@@ -362,6 +371,9 @@ input ::-webkit-inner-spin-button {
 
 .my-float {
   margin-top: 16px; }
+
+.text-muted {
+  color: #323232; }
 
 .fondo {
   background-color: #eed2d2; }
