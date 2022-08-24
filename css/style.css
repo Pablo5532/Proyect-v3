@@ -74,8 +74,7 @@ input ::-webkit-inner-spin-button {
 
 .gradient-custom {
   background: #be8ef1;
-  background: -webkit-linear-gradient(to right, #b3b3b3, #8b8b8b);
-  background: linear-gradient(to right, #b3b3b3, #8b8b8b); }
+  background: linear-gradient(to right, #d0d0d0 0%, #ffc9d2 50%, #437070 50%, #436767 100%); }
 
 .footer_s {
   background-color: #81c0f8;
@@ -104,8 +103,7 @@ input ::-webkit-inner-spin-button {
 @media (max-width: 380px) {
   main {
     margin: 0px;
-    padding: 0px;
-    width: auto; } }
+    padding: 0px; } }
 
 @media (max-width: 380px) {
   header {
@@ -182,7 +180,9 @@ html, body {
   padding: 15px;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 17px; }
+  font-size: 17px;
+  text-decoration: none;
+  list-style: none; }
 
 .title_uno {
   font-size: 25px;

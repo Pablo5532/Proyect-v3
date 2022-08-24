@@ -64,6 +64,8 @@
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 17px;
+    text-decoration: none;
+    list-style:none;
 }
 .title_uno{
     font-size: 25px;
@@ -167,7 +169,7 @@ margin-bottom: 16px;
     
 }
 .card-text{
-   @include card-text()
+@include card-text()
 }
 .card{
     justify-content: center;

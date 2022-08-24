@@ -95,8 +95,8 @@ transform: translateX(0);
 }
 .animate__animated.animate__bounce {
     --animate-duration: 2s;
-  }
-  .iconos{
+}
+.iconos{
     font-size: 3rem;
     color: rgb(255, 255, 255);
     padding: 20px;
@@ -107,17 +107,21 @@ transform: translateX(0);
     height: auto;
 }
 
-.gradient-custom {
-    
+.gradient-custom{
     background: #be8ef1;
     
-    
-    background: -webkit-linear-gradient(to right, rgb(179, 179, 179), rgb(139, 139, 139));
-    
+    background: linear-gradient(
+        to right,
+        rgb(208, 208, 208) 0%,
+        rgb(255, 201, 210) 50%,
+        rgb(67, 112, 112) 50%,
+        rgb(67, 103, 103) 100% );
 
-    background: linear-gradient(to right, rgb(179, 179, 179), (rgb(139, 139, 139)))
-    }
 
+
+
+
+}
 .footer_s{
     background-color:rgb(129, 192, 248);
     color:#232425;
@@ -153,7 +157,6 @@ transform: translateX(0);
     main{
         margin: 0px;
         padding: 0px;
-        width: auto;
     }
 }
 @media(max-width:380px){
